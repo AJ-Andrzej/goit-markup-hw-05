@@ -472,10 +472,11 @@ letter-spacing: 0.02em;
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15))
     color:#FFF;
     font-size: 12px;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     margin-right: 24px;
     padding: 8px 16px;
@@ -485,7 +486,6 @@ letter-spacing: 0.02em;
 }
 .subscribe-btn{
     display: inline-flex;
-    gap: 16px;
     justify-content: center;
     align-items: center;
     min-width: 165px;
@@ -510,6 +510,9 @@ letter-spacing: 0.02em;
         background-color: #404BBF;
 }
 
+.subscribe-icon{
+    margin-left: 16px;
+}
 /* =======/Footer========= */
 
 
@@ -629,7 +632,6 @@ margin-bottom: 16px;
     margin-bottom: 16px;
 }
 .order-form-chekbox-wrapper{
-    padding-top: 8px;
     margin-bottom: 24px;
 }
 .oreder-form-input-wrapper{
