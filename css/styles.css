@@ -448,10 +448,15 @@ padding: 40px 32px;
         font-weight: 500;
         margin-bottom: 16px;
 }
-.subscribe-form{
-    margin-left: auto;
+.subscribe-form-wrapper{
+margin-left: auto;
 }
-.subscribe-form-label{
+
+.subscribe-form{
+    display: flex;
+    gap: 24px;
+}
+.text-subscribe{
 display: block;
 margin-bottom: 16px;
 color:#FFF;
